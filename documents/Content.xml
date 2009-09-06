@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <!--
     Licensed to the Apache Software Foundation (ASF) under one
     or more contributor license agreements.  See the NOTICE file
@@ -17,20 +17,15 @@
     specific language governing permissions and limitations
     under the License.
 -->
-<section xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    version="5.0" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xsi:schemaLocation="http://docbook.org/ns/docbook ../../../content/dtd/docbook.xsd"
-    xmlns="http://docbook.org/ns/docbook">
-    <title>Welcome to the Apache OFBiz help system</title>
-    <section>
-        <para>If you arrived at this page without selecting the index,
-            then a specific help page was yet available</para>
-    </section>
-    <section>
-        <para>
-            This system will provide you context sensitive help throughout the
-            system.        
+<chapter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	version="5.0" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude"
+	xsi:schemaLocation="http://docbook.org/ns/docbook ../../content/dtd/docbook.xsd"
+	xmlns="http://docbook.org/ns/docbook">
+	<title>The Content Component</title>
+	<section>
+		<title>Introduction</title>
+		<para>
+			and a introduction paragraph for he content component
         </para>
-    </section>
-</section>
-
+	</section>
+</chapter>

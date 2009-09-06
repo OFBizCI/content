@@ -17,19 +17,21 @@
     specific language governing permissions and limitations
     under the License.
 -->
-<section xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    version="5.0" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xsi:schemaLocation="http://docbook.org/ns/docbook ../../../content/dtd/docbook.xsd"
-    xmlns="http://docbook.org/ns/docbook">
-    <title>Welcome to the Apache OFBiz help system</title>
+<section xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" 
+	xmlns:xl="http://www.w3.org/1999/xlink" 
+	xmlns:xi="http://www.w3.org/2001/XInclude"
+	xsi:schemaLocation="http://docbook.org/ns/docbook ../../../content/dtd/docbook.xsd"
+	xmlns="http://docbook.org/ns/docbook">
+	<title>The Main Content help screen</title>
+    <para>Introductory text for the content component</para>
     <section>
-        <para>If you arrived at this page without selecting the index,
-            then a specific help page was yet available</para>
+        <title>subsection heading</title>
+        <para>Subsection content</para>
     </section>
-    <section>
+	<section>
+        <title>Subsection 2 title</title>
         <para>
-            This system will provide you context sensitive help throughout the
-            system.        
+		for more info see the <link xl:href="http://docs.ofbiz.org">OFBiz documentation site</link> for more info.
         </para>
     </section>
 </section>
