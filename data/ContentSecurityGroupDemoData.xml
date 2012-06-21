@@ -19,11 +19,6 @@ under the License.
 -->
 <entity-engine-xml>
     <!-- Content Manager security -->
-    <SecurityPermission description="View operations in the Content Manager." permissionId="CONTENTMGR_VIEW"/>
-    <SecurityPermission description="Create operations in the Content Manager." permissionId="CONTENTMGR_CREATE"/>
-    <SecurityPermission description="Update operations in the Content Manager." permissionId="CONTENTMGR_UPDATE"/>
-    <SecurityPermission description="Delete operations in the Content Manager." permissionId="CONTENTMGR_DELETE"/>
-    <SecurityPermission description="ALL operations in the Content Manager." permissionId="CONTENTMGR_ADMIN"/>
     <SecurityGroupPermission groupId="FULLADMIN" permissionId="CONTENTMGR_ADMIN"/>
     <SecurityGroupPermission groupId="FLEXADMIN" permissionId="CONTENTMGR_CREATE"/>
     <SecurityGroupPermission groupId="FLEXADMIN" permissionId="CONTENTMGR_DELETE"/>
@@ -33,10 +28,6 @@ under the License.
     <SecurityGroupPermission groupId="BIZADMIN" permissionId="CONTENTMGR_ADMIN"/>
 
     <!-- Content ROLE security -->
-    <SecurityPermission description="Limited View operations in the Content Manager." permissionId="CONTENTMGR_ROLE_VIEW"/>
-    <SecurityPermission description="Limited Create operations in the Content Manager." permissionId="CONTENTMGR_ROLE_CREATE"/>
-    <SecurityPermission description="Limited Update operations in the Content Manager." permissionId="CONTENTMGR_ROLE_UPDATE"/>
-    <SecurityPermission description="Limited Delete operations in the Content Manager." permissionId="CONTENTMGR_ROLE_DELETE"/>
     <SecurityGroup groupId="CONTENT_USER" description="Content user group; all limited content permissions."/>
     <SecurityGroupPermission groupId="CONTENT_USER" permissionId="CONTENTMGR_ROLE_VIEW"/>
     <SecurityGroupPermission groupId="CONTENT_USER" permissionId="CONTENTMGR_ROLE_CREATE"/>
@@ -44,7 +35,6 @@ under the License.
     <SecurityGroupPermission groupId="CONTENT_USER" permissionId="CONTENTMGR_ROLE_DELETE"/>
 
     <!-- Control Applet security -->
-    <SecurityPermission description="Send to the Control Applet." permissionId="SEND_CONTROL_APPLET"/>
     <SecurityGroupPermission groupId="FULLADMIN" permissionId="SEND_CONTROL_APPLET"/>
     <SecurityGroupPermission groupId="FLEXADMIN" permissionId="SEND_CONTROL_APPLET"/>
 </entity-engine-xml>
